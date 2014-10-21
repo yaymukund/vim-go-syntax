@@ -25,6 +25,7 @@ setlocal indentexpr=GetGoIndent()
 setlocal indentkeys+=0=),0=},0=case,0=default
 
 setlocal autoindent
+setlocal noexpandtab
 
 " Only define the function once.
 if exists("*GetGoIndent")
